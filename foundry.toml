@@ -8,3 +8,8 @@ remappings = [
     '@chainlink/contracts/=node_modules/@chainlink/contracts/',
     '@openzeppelin/contracts/=node_modules/openzeppelin/contracts/',
 ]
+
+[rpc_endpoints]
+arbitrumSepolia = "${ARBITRUM_SEPOLIA_RPC_URL}"
+ethereumSepolia = "${ETHEREUM_SEPOLIA_RPC_URL}"
+avalancheFuji = "${AVALANCHE_FUJI_RPC_URL}"
