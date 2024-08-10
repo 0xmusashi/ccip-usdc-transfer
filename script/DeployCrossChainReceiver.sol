@@ -40,6 +40,6 @@ cast send $crossChainReceiver "allowlistSourceChain(uint64,bool)" 14767482510784
 cast send $crossChainReceiver "allowlistSender(address,bool)" $transferUsdc true --rpc-url ethereumSepolia --private-key $PRIVATE_KEY
 cast send $usdc "approve(address,uint256)" $transferUsdc 10000000 --rpc-url avalancheFuji --private-key $PRIVATE_KEY
 cast call $usdc "allowance(address,address)" $account $transferUsdc --rpc-url avalancheFuji
-export gasLimit=500000
+export gasLimit=366000
 cast send $transferUsdc "transferUsdc(uint64,address,uint256,uint64)" 16015286601757825753 $crossChainReceiver 100000 $gasLimit --rpc-url avalancheFuji --private-key $PRIVATE_KEY
  */
