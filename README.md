@@ -64,3 +64,4 @@ $ forge --help
 $ anvil --help
 $ cast --help
 ```
+"### Note from contributor\nImproved documentation for new contributors." 
